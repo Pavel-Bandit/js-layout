@@ -1,0 +1,80 @@
+.community {
+  padding: 16px;
+
+  &__header {
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .community__tabs {
+      display: flex;
+      margin-top: 8px;
+
+      .tab {
+        padding: 8px 12px;
+        font-size: 16px;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+
+        &--active {
+          border-color: #000;
+          font-weight: 600;
+        }
+
+        &--inactive {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  &__banner {
+    background-color: #f60;
+    padding: 16px;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 16px;
+
+    p {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 4px 0;
+    }
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__info {
+    margin-top: 24px;
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+  }
+
+  &__button {
+    margin-top: 24px;
+    background-color: #f60;
+    color: #fff;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

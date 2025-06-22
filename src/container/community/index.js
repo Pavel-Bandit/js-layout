@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const post = createPost()
-  page.append(post)
+  // Community section replication
   const community = createElement('main', 'community')
 
   const communityHeader = createElement(
